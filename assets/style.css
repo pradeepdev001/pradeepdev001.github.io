@@ -1,0 +1,170 @@
+:root {
+  --bg: #f7faf9;
+  --surface: #ffffff;
+  --text: #17211f;
+  --muted: #55625f;
+  --border: #dde6e3;
+  --accent: #0e7c66;
+  --accent-soft: #e3f5f0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f1514;
+    --surface: #161e1c;
+    --text: #e6eeec;
+    --muted: #9aaaa6;
+    --border: #26322f;
+    --accent: #5fd3b6;
+    --accent-soft: #17302a;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font:
+    17px/1.6 -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+header.site,
+main,
+footer.site {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+header.site {
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+
+header.site .home {
+  color: var(--muted);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+main {
+  padding-bottom: 32px;
+}
+
+h1 {
+  font-size: 1.9rem;
+  line-height: 1.25;
+  margin: 0.6em 0 0.2em;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 1.8em 0 0.4em;
+  padding-top: 0.6em;
+  border-top: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.05rem;
+  margin: 1.4em 0 0.3em;
+}
+
+p,
+ul,
+ol {
+  margin: 0.6em 0;
+}
+
+li + li {
+  margin-top: 0.25em;
+}
+
+a {
+  color: var(--accent);
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-top: 0;
+}
+
+/* Each policy opens with its short version as a blockquote. */
+blockquote {
+  background: var(--accent-soft);
+  border-radius: 12px;
+  padding: 4px 18px;
+  margin: 1.2em 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.8em 0;
+  font-size: 0.95rem;
+  display: block;
+  overflow-x: auto;
+}
+
+th,
+td {
+  text-align: left;
+  vertical-align: top;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+th {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+code {
+  font-size: 0.88em;
+  background: var(--accent-soft);
+  padding: 1px 5px;
+  border-radius: 5px;
+  overflow-wrap: anywhere;
+}
+
+.apps {
+  list-style: none;
+  padding: 0;
+}
+
+.apps li {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 18px;
+  margin: 12px 0;
+}
+
+.apps .name {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.apps .what {
+  color: var(--muted);
+  margin: 2px 0 6px;
+}
+
+footer.site {
+  color: var(--muted);
+  font-size: 0.92rem;
+  padding-top: 18px;
+  padding-bottom: 40px;
+  border-top: 1px solid var(--border);
+}

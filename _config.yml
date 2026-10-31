@@ -1,0 +1,14 @@
+title: Pradeep Dev
+description: Privacy policies for the Android apps made by Pradeep Dev.
+author: Pradeep Dev
+email: pradeepdev001@gmail.com
+lang: en
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+
+exclude:
+  - README.md
