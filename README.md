@@ -3,13 +3,14 @@
 Public privacy policies for my Android apps, served by GitHub Pages. The apps'
 own repositories stay private; only these pages are public.
 
-| App           | Package                        | Privacy policy URL (for Play Console)                  |
-| ------------- | ------------------------------ | ------------------------------------------------------ |
-| PK Player     | `com.pktech.pkplayer`          | https://pradeepdev001.github.io/pk-player/privacy/     |
-| PK Calculator | `com.pktech.pkcalculator`      | https://pradeepdev001.github.io/pk-calculator/privacy/ |
-| Naam Karan    | `com.pktech.naamkaran`         | https://pradeepdev001.github.io/naamkaran/privacy/     |
-| PK Downloader | `com.pktech.pkdownloadmanager` | https://pradeepdev001.github.io/pk-downloader/privacy/ |
-| PK DocScan    | `com.pktech.pkdocscan`         | https://pradeepdev001.github.io/pk-docscan/privacy/    |
+| App              | Package                        | Privacy policy URL (for Play Console)                  |
+| ---------------- | ------------------------------ | ------------------------------------------------------ |
+| PK Player        | `com.pktech.pkplayer`          | https://pradeepdev001.github.io/pk-player/privacy/     |
+| PK Calculator    | `com.pktech.pkcalculator`      | https://pradeepdev001.github.io/pk-calculator/privacy/ |
+| Naam Karan       | `com.pktech.naamkaran`         | https://pradeepdev001.github.io/naamkaran/privacy/     |
+| PK Downloader    | `com.pktech.pkdownloadmanager` | https://pradeepdev001.github.io/pk-downloader/privacy/ |
+| PK DocScan       | `com.pktech.pkdocscan`         | https://pradeepdev001.github.io/pk-docscan/privacy/    |
+| PK SMS Organizer | `com.pktech.pksms`             | https://pradeepdev001.github.io/pk-sms/privacy/        |
 
 The site root, https://pradeepdev001.github.io/, lists all of them and works as
 the "Website" field on a Play listing.

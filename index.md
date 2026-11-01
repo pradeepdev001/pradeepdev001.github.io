@@ -34,4 +34,9 @@ own privacy policy below.
     <div class="what">Scan documents, read text and make PDFs, offline.</div>
     <a href="{{ '/pk-docscan/privacy/' | relative_url }}">Privacy policy</a>
   </li>
+  <li>
+    <div class="name">PK SMS Organizer</div>
+    <div class="what">Text messages sorted into Personal, Transactions and Promotions, on your phone.</div>
+    <a href="{{ '/pk-sms/privacy/' | relative_url }}">Privacy policy</a>
+  </li>
 </ul>
