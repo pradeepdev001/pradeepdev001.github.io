@@ -35,7 +35,7 @@ own privacy policy below.
     <a href="{{ '/pk-docscan/privacy/' | relative_url }}">Privacy policy</a>
   </li>
   <li>
-    <div class="name">PK SMS Organizer</div>
+    <div class="name">PK SMS</div>
     <div class="what">Text messages sorted into Personal, Transactions and Promotions, on your phone.</div>
     <a href="{{ '/pk-sms/privacy/' | relative_url }}">Privacy policy</a>
   </li>

@@ -1,33 +1,33 @@
 ---
 layout: default
-title: PK SMS Organizer privacy policy
-description: What PK SMS Organizer stores, what it sends, and why.
+title: PK SMS privacy policy
+description: What PK SMS stores, what it sends, and why.
 permalink: /pk-sms/privacy/
 ---
 
-# PK SMS Organizer privacy policy
+# PK SMS privacy policy
 
 <p class="meta">Effective 1 November 2026 · Android app <code>com.pktech.pksms</code> · Made by Pradeep Dev · <a href="mailto:pradeepdev001@gmail.com">pradeepdev001@gmail.com</a></p>
 
-> **Your messages stay on your phone.** PK SMS Organizer has no account, no ads,
+> **Your messages stay on your phone.** PK SMS has no account, no ads,
 > no analytics and no server of its own. It never sends your messages, phone
 > numbers or contacts to the developer or to anyone else.
 >
 > One thing can leave through Google's Firebase: crash reports, which contain no
 > message content and which you can turn off.
 
-PK SMS Organizer is an SMS app. It works only after you choose it as your
+PK SMS is an SMS app. It works only after you choose it as your
 default SMS app, which you can undo at any time in Android's
-**Settings › Apps › Default apps**. It is an independent app, not affiliated with
-Microsoft or its SMS Organizer.
+**Settings › Apps › Default apps**.
 
 ## What the app stores on your phone
 
 | What | Where | Why |
 | ---- | ----- | --- |
-| Your text messages | Android's own message store, shared by every SMS app on the phone | To show, send, receive and delete messages |
+| Your text and picture messages | Android's own message store, shared by every SMS app on the phone | To show, send, receive and delete messages |
 | Which conversations you archived, moved to the Recycle Bin, starred, pinned, muted or moved to another tab | The app's private database: conversation numbers and times only, no message text and no phone numbers | To keep your organizing |
 | Messages still being sent: which parts the network has confirmed | The app's private storage, until sending finishes | To report "Sent" only when every part was sent |
+| Picture messages on their way: the file going to or coming from your operator | The app's private cache, deleted as soon as the transfer ends | Android's MMS service reads and writes it there |
 | Your settings, including your quick replies | The app's private storage | To remember your choices |
 
 **Sorting** into Personal, Transactions and Promotions happens on your phone, by
@@ -45,9 +45,11 @@ app.
 
 ## What leaves your phone
 
-**The messages you send.** Like any SMS app, PK SMS Organizer hands the message
+**The messages you send.** Like any SMS app, PK SMS hands the message
 and the recipient's number to your mobile operator, which delivers it under its
-own terms. The app does not use the internet to send or receive messages.
+own terms. Picture messages (MMS), sent and received, travel through your
+operator's MMS service over mobile data; Android's own MMS service handles that
+connection. PK SMS itself does not use the internet for messages.
 
 **Crash reports (Firebase Crashlytics).** If the app crashes, it sends the
 technical details: the error and where in the code it happened, your device
@@ -70,6 +72,10 @@ with anyone else.
 - **Share, Copy and Attach contact** pass only what you chose, to the app or field
   you chose. Copied one-time codes are marked sensitive, so Android hides them in
   its clipboard preview.
+- **Attach picture** uses Android's photo picker, which gives the app only the
+  pictures you choose. A picture is made smaller to fit your operator's limit and
+  sent to the people in the conversation; a copy waits in the app's cache for a
+  day if you do not send it.
 - **Block** adds the number to Android's own block list, which your phone and its
   other apps also use.
 - **Tell a friend** opens Android's share sheet with a short note about the app.
@@ -102,7 +108,7 @@ To ask about, or ask for deletion of, crash reports from your installation, emai
 
 ## Children
 
-PK SMS Organizer is a general-purpose messaging app, not designed for children.
+PK SMS is a general-purpose messaging app, not designed for children.
 It collects no personal information from anyone.
 
 ## Changes
