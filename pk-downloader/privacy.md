@@ -7,7 +7,7 @@ permalink: /pk-downloader/privacy/
 
 # PK Downloader privacy policy
 
-<p class="meta">Effective 31 October 2026 · Android app <code>com.pktech.pkdownloadmanager</code> · Made by Pradeep Dev · <a href="mailto:pradeepdev001@gmail.com">pradeepdev001@gmail.com</a></p>
+<p class="meta">Effective 1 November 2026 · Android app <code>com.pktech.pkdownloadmanager</code> · Made by Pradeep Dev · <a href="mailto:pradeepdev001@gmail.com">pradeepdev001@gmail.com</a></p>
 
 > **Your browsing and your downloads stay on your phone.** PK Downloader has no
 > account, no ads, no analytics and no server of its own. It connects only to the
@@ -41,7 +41,9 @@ the browser's user-agent, the page you came from, and that website's cookies.
 
 **Searches** typed in the address bar go to the search engine you pick (Google,
 DuckDuckGo or Bing), under that company's privacy policy. Address-bar suggestions
-come only from your own history and bookmarks.
+come only from your own history and bookmarks. **Voice search** hands your speech
+to your phone's own speech-recognition service (usually Google's); the app keeps
+no recording.
 
 **Ad-blocking filter lists.** If **Update filter lists** is on, the app downloads
 the public EasyList filter lists from `easylist.to`. Nothing about you is sent.
@@ -79,13 +81,16 @@ the app, and share downloads out through Android's share sheet.
 | Internet, network state                                        | Browsing and downloading                                 |
 | Foreground service (data sync), wake lock, user-initiated jobs | Keep downloads running when the app is not on screen     |
 | Notifications                                                  | Show download progress, and messages if you turn them on |
-| Camera, microphone                                             | Only when a website you visit asks, and you allow it     |
+| Camera                                                         | Scanning QR codes, and for a website you allow           |
+| Microphone                                                     | Only when a website you visit asks, and you allow it     |
 | Location (approximate and precise)                             | Only when a website you visit asks, and you allow it     |
 | Receive Firebase messages                                      | Deliver messages, only if you turn them on               |
 
-Camera, microphone and location are never used by the app itself. A website can
-use them only after you allow it, for that website, while you are using it. You
-can change these choices for each website in the app.
+The app itself uses the camera only to scan a QR code, on your phone; nothing is
+saved or sent. It never uses the microphone or your location itself. A website
+can use the camera, microphone or location only after you allow it, for that
+website, while you are using it. You can change these choices for each website
+in the app.
 
 ## How long data is kept
 
