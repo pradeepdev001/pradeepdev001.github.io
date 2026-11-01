@@ -7,7 +7,7 @@ permalink: /naamkaran/privacy/
 
 # Naam Karan privacy policy
 
-<p class="meta">Effective 31 October 2026 · Android app <code>com.pktech.naamkaran</code> · Made by Pradeep Dev · <a href="mailto:pradeepdev001@gmail.com">pradeepdev001@gmail.com</a></p>
+<p class="meta">Effective 1 November 2026 · Android app <code>com.pktech.naamkaran</code> · Made by Pradeep Dev · <a href="mailto:pradeepdev001@gmail.com">pradeepdev001@gmail.com</a></p>
 
 > **Naam Karan does not ask for, or collect, any personal information.** There is
 > no account, no ads and no analytics. Every name and meaning is built into the
@@ -37,7 +37,9 @@ this app.
 technical details: where in the code it happened, your device model, Android
 version, app version, and an installation identifier that Firebase creates.
 Firebase also records when the app is opened, so that crash rates can be worked
-out. None of this includes the names you searched for or saved.
+out. None of this includes the names you searched for or saved. This is **on by
+default** and can be turned off in **Settings › Privacy › Send crash reports**;
+the change takes effect immediately and is remembered.
 
 **Notifications (Firebase Cloud Messaging).** When the app first starts, it asks
 whether it may show notifications, and registers this installation with Google's
